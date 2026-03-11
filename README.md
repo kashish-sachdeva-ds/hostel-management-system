@@ -148,7 +148,7 @@ Integration with online payment gateways
 
 Email notification system
 
-Improved UI using modern frontend frameworks (React / Bootstrap)
+Improved UI using React / Bootstrap
 
 Deployment on cloud platforms (AWS / Heroku / Vercel)
 
