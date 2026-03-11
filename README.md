@@ -1,111 +1,88 @@
-🏨 Hostel Management System
+# 🏨 Hostel Management System
 
-A web-based Hostel Management System developed to simplify hostel administration tasks such as student registration, room allocation, complaint management, and payment handling.
+A **web-based Hostel Management System** developed to simplify hostel administration tasks such as **student registration, room allocation, complaint management, and payment handling**.
 
-This project demonstrates backend development using Flask and Django frameworks, combined with a structured frontend built using HTML and CSS.
+This project demonstrates backend development using **Flask and Django frameworks**, combined with a structured frontend built using **HTML and CSS**.
 
-📌 Project Overview
+---
+
+# 📌 Project Overview
 
 Managing hostel operations manually can be inefficient and prone to errors.
-This project provides a centralized digital platform that allows hostel administrators and students to manage hostel-related activities efficiently.
+This project provides a **centralized digital platform** that allows hostel administrators and students to manage hostel-related activities efficiently.
 
 The system includes multiple backend implementations:
 
-Flask-based application
+* Flask-based application
+* Django-based application
+* API integration module
 
-Django-based application
+---
 
-API integration module
+# 🚀 Features
 
-The project showcases different backend approaches while maintaining similar hostel management functionalities.
+## 👤 User Management
 
-🚀 Features
-👤 User Management
+* Student **Signup and Login**
+* User **Profile Management**
+* Update personal information
 
-Student Signup and Login
+## 🏢 Hostel Management
 
-User Profile Management
+* View hostel details
+* Room allocation system
+* Hostel dashboard
 
-Ability to update personal information
+## 🛠 Complaint & Maintenance System
 
-🏢 Hostel Management
+* Submit maintenance complaints
+* Track complaint status
 
-View hostel details
+## 💳 Payment System
 
-Room allocation system
+* Hostel fee payment page
+* Payment record management
 
-Hostel dashboard for monitoring activities
+## ⭐ Feedback System
 
-🛠 Complaint & Maintenance System
+* Students can submit feedback
 
-Submit maintenance complaints
+---
 
-Track complaint status
+# 🛠 Tech Stack
 
-💳 Payment System
+## Backend
 
-Hostel fee payment page
+* Python
+* Flask
+* Django
 
-Payment record management
+## Frontend
 
-⭐ Feedback System
+* HTML
+* CSS
 
-Students can submit feedback regarding hostel services
+## Database
 
-📄 Additional Pages
+* SQLite
 
-About Page
+## Tools
 
-Terms and Conditions
+* Git
+* GitHub
 
-Dashboard Overview
+---
 
-🛠 Tech Stack
-Backend
+# 📂 Project Structure
 
-Python
-
-Flask
-
-Django
-
-Frontend
-
-HTML
-
-CSS
-
-Database
-
-SQLite
-
-Tools & Version Control
-
-Git
-
-GitHub
-
-📂 Project Structure
+```
 hostel-management-system
 │
 ├── CE-1 Flask
 │   ├── templates
-│   │   ├── about.html
-│   │   ├── base.html
-│   │   ├── complaint_and_maintenance.html
-│   │   ├── dashboard.html
-│   │   ├── feedback.html
-│   │   ├── hostel_details.html
-│   │   ├── login.html
-│   │   ├── payment.html
-│   │   ├── profile.html
-│   │   ├── room_allocation.html
-│   │   └── signup.html
-│   │
 │   ├── static
 │   │   ├── css
 │   │   └── images
-│   │
 │   ├── app.py
 │   └── app.db
 │
@@ -118,46 +95,62 @@ hostel-management-system
 │   │   ├── forms.py
 │   │   ├── urls.py
 │   │   └── admin.py
-│   │
 │   ├── manage.py
 │   └── db.sqlite3
 │
 └── CE-3 API
-⚙️ Installation & Setup
-1️⃣ Clone the Repository
+```
+
+---
+
+# ⚙️ Installation
+
+## Clone the repository
+
+```
 git clone https://github.com/kashish-sachdeva-ds/hostel-management-system.git
 cd hostel-management-system
-2️⃣ Run the Flask Version
+```
+
+## Run Flask
+
+```
 cd "CE-1 Flask"
 python app.py
+```
 
-The Flask application will start on the local development server.
+## Run Django
 
-3️⃣ Run the Django Version
+```
 cd "CE-2 Django"
 python manage.py runserver
+```
 
-Open your browser and visit:
+Open browser:
 
+```
 http://127.0.0.1:8000/
-🔮 Future Improvements
+```
 
-Role-based authentication (Admin / Student)
+---
 
-Integration with online payment gateways
+# 🔮 Future Improvements
 
-Email notification system
+* Admin / Student roles
+* Online payment gateway
+* Email notifications
+* Modern UI
+* Cloud deployment
 
-Improved UI using React / Bootstrap
+---
 
-Deployment on cloud platforms (AWS / Heroku / Vercel)
-
-👥 Contributors
+# 👥 Contributors
 
 Kashish Sachdeva
-
 Team Collaboration Project
 
-📜 License
+---
 
-This project was developed for educational and learning purposes.
+# 📜 License
+
+Educational purpose project.
